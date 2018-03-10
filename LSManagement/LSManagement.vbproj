@@ -72,6 +72,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Address.vb" />
+    <Compile Include="Core\Customer.vb" />
+    <Compile Include="Core\Loader.vb" />
+    <Compile Include="Core\Main.vb" />
+    <Compile Include="Core\Person.vb" />
+    <Compile Include="Core\Spreadsheet.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>

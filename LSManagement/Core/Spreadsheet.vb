@@ -71,7 +71,7 @@
         ''' <returns></returns>
         ''' <exception cref="NotACSVFileExcption">The given file was not a csv file.</exception>
         ''' <exception cref="FileNotFoundException">The requested file does not exist.</exception>
-        ''' <exception cref="FileContentsInvalid">The contents of the file were invalid.</exception>"
+        ''' <exception cref="FileContentsInvalidException">The contents of the file were invalid.</exception>"
         Public Shared Function LoadFromCSV(ByVal filepath As String) As Spreadsheet
             'File checking
             If IO.File.Exists(filepath) Then
