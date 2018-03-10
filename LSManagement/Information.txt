@@ -1,0 +1,11 @@
+﻿Vorname
+Nachname
+Firma
+Addresse
+Postleitzahl
+Ort
+Telefon
+Mobiel
+Fax
+Kundennummer
+Kunde seit

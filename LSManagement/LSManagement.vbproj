@@ -72,6 +72,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Artikel hinzufügen.Designer.vb">
+      <DependentUpon>Artikel hinzufügen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Artikel hinzufügen.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Core\Address.vb" />
     <Compile Include="Core\Customer.vb" />
     <Compile Include="Core\Loader.vb" />
@@ -83,6 +89,18 @@
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hauptfenster.Designer.vb">
+      <DependentUpon>Hauptfenster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Hauptfenster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kunde anlegen.Designer.vb">
+      <DependentUpon>Kunde anlegen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kunde anlegen.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -102,8 +120,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Artikel hinzufügen.resx">
+      <DependentUpon>Artikel hinzufügen.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hauptfenster.resx">
+      <DependentUpon>Hauptfenster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kunde anlegen.resx">
+      <DependentUpon>Kunde anlegen.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -123,6 +150,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Information.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
