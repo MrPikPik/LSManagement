@@ -11,13 +11,13 @@ Public NotInheritable Class Main
     Public Sub New()
     End Sub
 
-    Private _customers As Customer()
+    Private _customers As List(Of Customer)
 
-    Public Property Customers As Customer()
+    Public Property Customers As List(Of Customer)
         Get
             Return _customers
         End Get
-        Set(value As Customer())
+        Set(value As List(Of Customer))
             _customers = value
         End Set
     End Property

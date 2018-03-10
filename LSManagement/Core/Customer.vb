@@ -70,7 +70,9 @@
             Return _Address.ToString()
         End Function
 
+        Public Sub Add(ByVal customer As Customer)
 
+        End Sub
 
     End Class
 End Namespace
