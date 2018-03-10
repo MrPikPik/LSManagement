@@ -2,6 +2,7 @@
     Public Class Loader
         Public Sub LoadItems()
 
+
         End Sub
 
         Public Sub LoadCustomers()

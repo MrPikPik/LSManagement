@@ -1,23 +1,10 @@
 ﻿Imports LSManagement.Core
 
-Public Class Person
-    Private _FirstName As String
+Public Class Person : Inherits Customer
     Private _MiddleName As String
     Private _LastName As String
 
     Private _Gender As GenderName
-
-    Private _Address As Address
-
-
-    Public Property FirstName As String
-        Get
-            Return _FirstName
-        End Get
-        Set(value As String)
-            _FirstName = value
-        End Set
-    End Property
 
     Public Property MiddleName As String
         Get
@@ -57,20 +44,11 @@ Public Class Person
         End Get
     End Property
 
-    Public Property Address As Address
-        Get
-            Return _Address
-        End Get
-        Set(value As Address)
-            _Address = value
-        End Set
-    End Property
 
 
 
-    Public Function GetAddress() As String
-        Return _Address.ToString()
-    End Function
+
+
 
     ''' <summary>
     ''' Gets the name of the person.

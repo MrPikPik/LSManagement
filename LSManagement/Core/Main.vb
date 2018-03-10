@@ -11,5 +11,18 @@ Public NotInheritable Class Main
     Public Sub New()
     End Sub
 
+    Private _customers As Customer()
+
+    Public Property Customers As Customer()
+        Get
+            Return _customers
+        End Get
+        Set(value As Customer())
+            _customers = value
+        End Set
+    End Property
+
+
+
 
 End Class
