@@ -11,6 +11,8 @@ Kundennummer
 Kunde seit
 
 
+#######Kategorien#######
+
 
 Artikel Hinzufügen
 bei Combobox1, 2 und 3 sind sie Kategorien/ unterkategorien stehen z.B.
@@ -28,3 +30,9 @@ combobox3.text = "Schubkastenzargensysteme"
 combobox3.text = "Möbelscharniere"
 combobox3.text = "Möbelschlösser"
 ... Stehen
+
+
+#######Technische Informationen#######
+
+die Technischen Informationen müssen mit den Kategorien angepasst werden z.B. stehen andere Technischen Deteils bei Möbelschaniere als bei Möbelschlösser
+ein Beispiel was als information drin stehen könnte steht in label8
