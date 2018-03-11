@@ -9,3 +9,22 @@ Mobiel
 Fax
 Kundennummer
 Kunde seit
+
+
+
+Artikel Hinzufügen
+bei Combobox1, 2 und 3 sind sie Kategorien/ unterkategorien stehen z.B.
+Combobox1.text = "Beschläge"
+combobox1.text = "Chemische Prudukte"
+combobox1.text = .........
+
+
+combobox2.text = "Baubeschläge"
+combobox2.text = "Möbelbeschläge"
+
+wenn in combobox2.text = "Möbelbeschläge" gewählt ist
+dann soll in combobox3.text z.B.
+combobox3.text = "Schubkastenzargensysteme"
+combobox3.text = "Möbelscharniere"
+combobox3.text = "Möbelschlösser"
+... Stehen
