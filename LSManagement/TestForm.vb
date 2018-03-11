@@ -4,4 +4,9 @@
         kundeAnlegen.ShowDialog()
 
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim arthinzu As New Artikel_hinzufügen
+        arthinzu.ShowDialog()
+    End Sub
 End Class
